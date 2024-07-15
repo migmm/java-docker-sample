@@ -14,3 +14,11 @@ spring:
 server:
     port: 8080
 
+# In case you use application.properties file, use this code below
+# spring.datasource.url=${DB_URL}
+# spring.datasource.username=${DB_USER_NAME}
+# spring.datasource.password=${DB_PASSWORD}
+# spring.application.name=java_docker_app
+# spring.jpa.hibernate.ddl-auto=update
+# spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+# server.port=8080
