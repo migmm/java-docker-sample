@@ -165,6 +165,15 @@ To remove the Docker image:
 docker rmi java-docker-sample
 ```
 
+## Testing with Postman
+
+A Postman collection file (`Java_Docker_Sample_Project.postman_collection.json`) is included in the project root. To use it:
+
+1. Open Postman
+2. Click on "Import" in the top left corner
+3. Drag and drop the JSON file or browse to select it
+4. The collection will be imported with pre-configured requests for all endpoints
+
 ## Troubleshooting
 
 If you encounter any issues while running the application, please check the following:
